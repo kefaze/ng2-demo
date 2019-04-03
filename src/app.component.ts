@@ -1,7 +1,7 @@
 import { Component } from "@angular/core"
 
 @Component({
-    selector: "hellow-world",
+    selector: "hello-world",
     templateUrl: "src/app.component.html"
 })
 
