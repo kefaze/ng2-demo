@@ -1,5 +1,7 @@
 var webpack = require('webpack');
 var path = require('path');
+
+var basePath = path.join(__dirname, 'src');
 module.exports = {
   entry: './src/main.ts',
 
@@ -9,7 +11,11 @@ module.exports = {
 
   resolve: {
     root: [ path.join(__dirname, 'src') ],
-    extensions: ['', '.ts', '.js']
+    extensions: ['', '.ts', '.js'],
+    alias: {
+      app: basePath + '/app',
+      shared: basePath + '/app/shared'
+    }
   },
 
   module: {
