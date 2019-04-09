@@ -1,3 +1,6 @@
 Hellow World 例子： https://github.com/angular-programmig/hellow-World
 通讯录例子： https://github.com/angular-programmig/angular2-contacts-demo
 问卷调查： https://github.com/angular-programmig/angular2-questionnaire
+
+1. webpack 打包后的路径 root目录  -- html 模块加载不上
+2. 引入index.html 中的js先后顺序  -- 导致webpackJsonp is not defined

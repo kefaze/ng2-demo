@@ -3,8 +3,8 @@ import {Location} from '@angular/common';
 
 @Component({
   selector: 'my-footer',
-  templateUrl: 'src/app/footer/footer.component.html',
-  styleUrls: ['src/app/footer/footer.component.css']
+  templateUrl: 'app/footer/footer.component.html',
+  styleUrls: ['app/footer/footer.component.css']
 })
 export class FooterComponent implements OnInit {
   private isListPage:boolean = true;
